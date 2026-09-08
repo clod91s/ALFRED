@@ -1,0 +1,87 @@
+cff-version: 1.2.0
+title: >-
+  Numerical dosimetric analysis of low-energy positrons in living
+  biological samples — supporting code
+message: >-
+  If you use this software, please cite the associated journal article
+  using the metadata under "preferred-citation".
+type: software
+license: CC-BY-4.0
+abstract: >-
+  Python implementation of a numerical framework that couples low-energy
+  positron transport to a time-resolved radiobiological model, in order to
+  quantify the absorbed dose and the cellular surviving fraction during
+  depth-resolved Positron Annihilation Spectroscopy (PAS) of living
+  biological samples. Mass collision stopping powers for a liver
+  sinusoidal endothelial monolayer are computed with the Berger-Seltzer
+  formulation over 5-100 keV, and dose is propagated through a
+  Linear-Quadratic survival model extended with the Lea-Catcheside
+  protraction factor and a phenomenological FLASH sparing factor, for
+  continuous, pulsed and trap-based bunched beam regimes.
+keywords:
+  - positron annihilation spectroscopy
+  - dosimetry
+  - biomedicine
+  - linear-quadratic model
+  - Lea-Catcheside protraction factor
+  - FLASH effect
+  - slow positron beam
+authors:
+  - given-names: Matteo
+    family-names: Vicini
+    email: matteo.vicini@polimi.it
+    affiliation: >-
+      Department of Chemistry, Materials and Chemical Engineering "G. Natta",
+      Politecnico di Milano, Milano, Italy
+  - given-names: Paola
+    family-names: Folegati
+    affiliation: >-
+      Department of Physics and L-NESS, Politecnico di Milano, Como, Italy
+  - given-names: Giancarlo
+    family-names: Maero
+    affiliation: >-
+      Dipartimento di Fisica, Universita degli Studi di Milano and INFN,
+      Sezione di Milano, Milano, Italy
+  - given-names: Leonardo
+    family-names: Resciniti
+    affiliation: >-
+      Department of Chemistry, Materials and Chemical Engineering "G. Natta",
+      Politecnico di Milano, Milano, Italy
+  - given-names: Rafael
+    family-names: Ferragut
+    email: rafael.ferragut@polimi.it
+    affiliation: >-
+      Department of Physics and L-NESS, Politecnico di Milano, Como, Italy and
+      INFN, Sezione di Milano, Milano, Italy
+  - given-names: Claudio
+    family-names: Conci
+    email: claudio.conci@polimi.it
+    affiliation: >-
+      Department of Chemistry, Materials and Chemical Engineering "G. Natta",
+      Politecnico di Milano and INFN, Sezione di Milano, Milano, Italy
+preferred-citation:
+  type: article
+  title: >-
+    Numerical dosimetric analysis of low-energy positrons in living
+    biological samples
+  authors:
+    - given-names: Matteo
+      family-names: Vicini
+    - given-names: Paola
+      family-names: Folegati
+    - given-names: Giancarlo
+      family-names: Maero
+    - given-names: Leonardo
+      family-names: Resciniti
+    - given-names: Rafael
+      family-names: Ferragut
+    - given-names: Claudio
+      family-names: Conci
+  journal: Radiation Physics and Chemistry
+  volume: 251
+  start: 114352
+  year: 2027
+  issn: 0969-806X
+  doi: 10.1016/j.radphyschem.2026.114352
+  publisher:
+    name: Elsevier

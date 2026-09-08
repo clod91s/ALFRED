@@ -1,0 +1,11 @@
+# Dependencies for positron_dosimetry.py
+# Install with:  pip install -r requirements.txt
+#
+# Version floors below are the ones the published results were produced with.
+# The code uses no recently deprecated APIs and runs on current releases too.
+
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.0
+openpyxl>=3.1      # required by pandas .to_excel() for liver_sf_comparison.xlsx
